@@ -1,0 +1,22 @@
+.carousel-indicators{
+    margin: 0;
+    bottom: -40px;
+    
+}
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px !important;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.carousel-control-prev {
+    left: -90px;
+}
+.carousel-control-next {
+    right: -90px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #000;
+    color: #000;
+}
+
