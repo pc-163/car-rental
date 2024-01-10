@@ -1,9 +1,99 @@
-body{
+body {
     background-color: #f6f7f9 !important;
 }
 
 
 /*section2*/
-.car-boxes img{
+.car-boxes img {
     max-width: 35%;
+}
+
+/*section3*/
+#fnt-size {
+    font-size: 80px;
+}
+
+.bg_image {
+    background-image: url('../src/assets/images/girl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    ;
+}
+
+.radius_s {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    ;
+}
+
+.blog_sec button {
+    border-radius: 30px;
+    max-width: 25%;
+}
+
+.blog_sec a {
+    text-decoration: none;
+}
+
+.blog_sec .card,
+.blog_sec img {
+    border-radius: 0;
+}
+
+/*newsletter*/
+
+.home-newsletter .form-control {
+    border-radius: 20px 0 0 20px;
+    border: 2px solid;
+    border-right: 0;
+    padding: 24px;
+}
+
+.home-newsletter .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.home-newsletter .btn {
+    min-height: 80px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    left: -20px;
+    z-index: 999999;
+}   
+.home-newsletter .btn:hover {
+    background: #000;
+    color: #fff;
+}   
+
+/*footer*/
+.footer_list{
+    padding-left: 10px;
+}
+.footer_list li::marker{
+    font-size: 0;
+}
+.footer_list li{
+    line-height: 3rem;
+}
+.footer_list li a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.ft_border{
+    border-top: 2px solid #fff;
+}
+footer{
+    background-color: #2b2b2b;
+}
+
+footer svg{
+    margin: 0 12px;
+    font-size: 30px;
 }

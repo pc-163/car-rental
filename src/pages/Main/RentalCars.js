@@ -29,7 +29,7 @@ const RentalCars = () => {
                     <Card.Title className='fw-bold fs-3'>Audi e-tron</Card.Title>
                     <Card.Img src={Audi2} alt='Audi2' />
                     <Card.Title className='fw-bold fs-4 pt-5'>2023</Card.Title>
-                    <Card.Body className='p-0 flex'>
+                    <Card.Body className='p-0 flex main-card-body'>
                         <Icon.Speedometer /> 15k
                         <Icon.EvFront /> Auto
                         <Icon.UniversalAccessCircle /> Auto
@@ -43,7 +43,7 @@ const RentalCars = () => {
                     <Card.Title className='fw-bold fs-3'>Audi Sportback</Card.Title>
                     <Card.Img src={Audi3} alt='Audi3' />
                     <Card.Title className='fw-bold fs-4 pt-5'>2021</Card.Title>
-                    <Card.Body className='p-0 flex'>
+                    <Card.Body className='p-0 flex main-card-body'>
                         <Icon.Speedometer /> 15k
                         <Icon.EvFront /> Auto
                         <Icon.UniversalAccessCircle /> Auto
@@ -57,7 +57,7 @@ const RentalCars = () => {
                     <Card.Title className='fw-bold fs-3'>Audi A6 Sedan</Card.Title>
                     <Card.Img src={Audi4} alt='Audi4' />
                     <Card.Title className='fw-bold fs-4 pt-5'>2023</Card.Title>
-                    <Card.Body className='p-0 flex'>
+                    <Card.Body className='p-0 flex main-card-body'>
                         <Icon.Speedometer /> 15k
                         <Icon.EvFront /> Auto
                         <Icon.UniversalAccessCircle /> Auto

@@ -16,7 +16,7 @@ const Section1 = () => {
                         <h1 className="fw-bold">Car <br />Rentals</h1>
                         <p className="text-white bg-black text-bg">The Lowest Rent For Car Hire</p>
                         <p>Unlock the road to adventure with our diverse fleet of rental cars. Your journey, your choice - experience hassle-free mobility with us
-                            <br /><a href="#" className="fw-bold text-black">See More...</a></p>
+                            <br /><a href="#home" className="fw-bold text-black">See More...</a></p>
                     </Col>
                     <Col md={2}></Col>
                     <Col md={6}>
